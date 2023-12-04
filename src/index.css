@@ -1,0 +1,73 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+}
+
+/* a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+} */
+
+body {
+ width: 100%;
+height: 100%;
+background-color: #242424;
+background: #fff;
+color-scheme: light dark;
+  color:#000;
+  font-family: 'Montserrat', sans-serif;
+}
+.btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.Pbtn,.Nbtn{
+  padding: 10px;
+  background: #dadada;
+  border: none;
+  border-radius: 5px;
+}
+.Pbtn:hover{
+  background: rgb(27, 27, 94);
+  color: #fff;
+}
+.Nbtn:hover{
+  background: rgb(30, 96, 30);
+  color: #fff;
+}
+
+
+body::-webkit-scrollbar {
+  width:0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Example for Firefox */
+body {
+  scrollbar-width: thin;
+}
+.navbar-nav .nav-item .active {
+  color: #000;/* Change to your preferred active background color */
+}
+
+.navbar-nav .nav-item .active a {
+  color: #000; /* Change to your preferred active text color */
+}
+.active{
+  color: #000;
+  /* font-size: 30px; */
+  font-weight: bold;
+  background: none;
+}
+
+

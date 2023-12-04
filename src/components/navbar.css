@@ -1,0 +1,14 @@
+
+
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    background: none;
+}
+.dropdown-item .active{
+   background-color: none;
+}
