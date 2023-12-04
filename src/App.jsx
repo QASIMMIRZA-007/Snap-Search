@@ -3,8 +3,7 @@ import {React,useState} from 'react'
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import ImageData from './components/ImageData';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
+
 
 
 
